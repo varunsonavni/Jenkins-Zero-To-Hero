@@ -24,7 +24,7 @@ pipeline {
 
         stage('Call from Share Library with custom value'){
             steps{
-                scriptRepoName("varun@varun")
+                scriptRepoName("varun@varun","20")
             }
         }
 
