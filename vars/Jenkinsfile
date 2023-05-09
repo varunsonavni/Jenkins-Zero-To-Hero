@@ -30,7 +30,7 @@ pipeline {
 
         stage('Call from Share Library with any arguments 1-2-3 or many'){
             steps{
-                customPara("varun","sonavni")
+                customPara(name:"varun", surname:"sonavni")
             }
         }
 
