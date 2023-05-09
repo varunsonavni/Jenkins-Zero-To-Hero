@@ -1,3 +1,5 @@
+// Go to Manage Setting/System Go to Global Pipeline Libraries section give name & repo url where .groovy or shared library files are kept.
+
 @Library('shared-library') _
 
 // @Library('shared-library') filename.groovy
