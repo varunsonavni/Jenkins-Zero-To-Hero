@@ -1,4 +1,4 @@
-
+@Library('shared-library')
 
 pipeline {
     
@@ -10,7 +10,18 @@ pipeline {
     
     stages {
 
+
         stage('Call from Share Library'){
+            steps{
+                script{
+                    sh '''
+                    echo 'In jenkins file'
+                    
+                    '''
+                }
+            }
+        }
+        stage('pipeline step'){
             steps{
                 script{
                     sh '''
