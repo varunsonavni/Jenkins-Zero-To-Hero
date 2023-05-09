@@ -15,12 +15,7 @@ pipeline {
 
         stage('Call from Share Library'){
             steps{
-                script{
-                    sh '''
-                    echo 'In jenkins file'
-                    
-                    '''
-                }
+                scriptFun()
             }
         }
         stage('pipeline step'){
