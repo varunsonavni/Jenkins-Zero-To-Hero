@@ -1,4 +1,5 @@
 // Go to Manage Setting/System Go to Global Pipeline Libraries section give name & repo url where .groovy or shared library files are kept.
+// By default it takes vars folder in settings.
 
 @Library('shared-library') _
 
@@ -20,6 +21,14 @@ pipeline {
                 scriptFun()
             }
         }
+
+        stage('Call from Share Library with custom value'){
+            steps{
+                scriptRepoName("varun@varun")
+            }
+        }
+
+
         stage('pipeline step'){
             steps{
                 script{
