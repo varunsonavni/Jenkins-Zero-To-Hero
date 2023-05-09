@@ -1,5 +1,7 @@
 @Library('shared-library') _
 
+// @Library('shared-library') filename.groovy
+
 pipeline {
     
     agent any 
