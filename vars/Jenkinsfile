@@ -14,7 +14,7 @@ pipeline {
     }
     
     stages {
-        diffStage()
+
 
         stage('Call from Share Library'){
             steps{
