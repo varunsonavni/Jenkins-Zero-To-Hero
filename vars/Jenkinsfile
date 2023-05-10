@@ -35,7 +35,8 @@ pipeline {
         }
 
         
-        diffStage(name:"varun", surname:"sonavni")
+        // diffStage(name:"varun", surname:"sonavni")
+        diffStage()
 
 
 
