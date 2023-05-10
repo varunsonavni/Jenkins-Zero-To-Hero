@@ -3,6 +3,7 @@
 
 @Library('shared-library') _
 
+diffStage()
 // @Library('shared-library') filename.groovy
 
 // pipeline {
